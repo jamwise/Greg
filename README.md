@@ -12,7 +12,7 @@ console.log( date.format('l D \\t\\h\e jS') );
 
 Greg uses most of the characters used in PHP's date class. A list can be found below.
 
-d:	Day of the month, 2 digits with leading zeros	
+**d**:	Day of the month, 2 digits with leading zeros	
 D:	A textual representation of a day, three letters	
 j:	Day of the month without leading zeros	
 l: 	(lowercase 'L')	A full textual representation of the day of the week	
