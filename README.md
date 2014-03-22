@@ -7,8 +7,8 @@ Greg is an extension of Javascript's built in Date function
 
 After inculding greg, new functions are available to the Date function:
 
-var date = new Date();
-console.log( date.format('l D \\t\\h\e jS') ); 
+    var date = new Date();
+    console.log( date.format('l D \\t\\h\e jS') ); 
 
 Greg uses most of the characters used in PHP's date class. A list can be found below.
 
