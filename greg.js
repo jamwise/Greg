@@ -41,7 +41,7 @@
       return ( hours == 0 || hours == 12 ) ? 12 : 
              ( this._g_pastTwelve() )               ? hours - 12 : hours;
     };
-	Date.prototype._g_G = function(){ 	return this.getHours();    };
+	Date.prototype._g_G = function(){ 	 return this.getHours();    };
 	Date.prototype._g_h = function(){    return this._g_pad( this._g_g() )    };
 	Date.prototype._g_H = function(){    return this._g_pad( this._g_G() ) };
 	Date.prototype._g_i = function(){    return this._g_pad( this.getMinutes() ) };
