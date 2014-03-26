@@ -1,4 +1,4 @@
-Greg
+GREG
 ====
 
 Greg is an extension of Javascript's built in Date function
